@@ -279,13 +279,15 @@ h4{
 }
 
 /*footer section*/
+footer{
+     background-color: darkgrey;}
 footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 24px;
     color:white;
-    background-color:darkgrey;
+   
 }
 
 @media (max-width: 768px) {
