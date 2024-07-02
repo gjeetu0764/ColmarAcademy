@@ -193,6 +193,8 @@ h4{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2%;
+    overflow:hidden;
+    height:100vh;
     img {
         width: 100%;
     }
@@ -238,6 +240,7 @@ h4{
 .thesis-grid {
     display: grid;
     grid-template-columns: 3fr 2fr;
+    
 }
 
 /**** Other thesis container ****/
